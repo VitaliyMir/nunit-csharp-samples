@@ -10,5 +10,8 @@ public class Book
     /// </summary>
     public string Author { get; set; }
 
-    // TODO step 2.
+    /// <summary>
+    /// Gets or sets a book articul.
+    /// </summary>
+    public string Articul { get; set; }
 }

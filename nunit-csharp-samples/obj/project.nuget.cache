@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8wIXRkKClFaDI2JT1Wdt4QG9ZNtL1iRzLj90ERzd0sPjVj/xf0eReRK05IAZTE4jrKc1MHuL9pzyp7nNO+uGrA==",
+  "dgSpecHash": "yN96AwTFNKCLvWIqsIaNlpf+b2hGQEst2M37HGa4rFxFgVaQxUy9Ure/+Ikk4u3X0FfTLULYfZF7Dqv2esNVtw==",
   "success": true,
-  "projectFilePath": "/Users/vanyachernov/Desktop/nunit-csharp-samples/nunit-csharp-samples/nunit-csharp-samples.csproj",
+  "projectFilePath": "F:\\Programming\\PR 10\\nunit-csharp-samples\\nunit-csharp-samples\\nunit-csharp-samples.csproj",
   "expectedPackageFiles": [
-    "/Users/vanyachernov/.nuget/packages/nunit/4.1.0/nunit.4.1.0.nupkg.sha512"
+    "C:\\Users\\mvita\\.nuget\\packages\\nunit\\4.1.0\\nunit.4.1.0.nupkg.sha512"
   ],
   "logs": []
 }

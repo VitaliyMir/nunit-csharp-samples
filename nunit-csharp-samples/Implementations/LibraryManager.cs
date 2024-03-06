@@ -17,7 +17,6 @@ public class LibraryManager : ILibraryManager
         {
             _books.Add(book);
         }
-        // TODO step 2.
     }
 
     /// <summary>

@@ -11,6 +11,7 @@ public class LibraryManager : ILibraryManager
     /// <param name="book">The book to add.</param>
     public void AddBook(Book book)
     {
+        if (book != null && !_books.Contains(book))
         {
             _books.Add(book);
         }

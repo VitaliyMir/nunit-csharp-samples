@@ -15,7 +15,7 @@ public class LibraryStatisticsAnalyzer
     public List<Book> GetBooksByAuthor(string author)
     {
         // TODO step 3.
-        return [];
+        return _manager.Books.Where(book => book.Author == author).ToList();
     }
     
     /// <summary>
@@ -26,7 +26,7 @@ public class LibraryStatisticsAnalyzer
     public Book GetBookByTitle(string title)
     {
         // TODO step 3.
-        return new Book();
+        return _manager.Books.FirstOrDefault(book => book.Title == title);
     }
 
     /// <summary>
@@ -37,6 +37,6 @@ public class LibraryStatisticsAnalyzer
     public Book GetBookByArticul(string articul)
     {
         // TODO step 3.
-        return new Book();
+        return _manager.Books.FirstOrDefault(book => book.Articul == articul);
     }
 }
